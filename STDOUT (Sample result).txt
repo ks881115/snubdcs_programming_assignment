@@ -1,0 +1,1029 @@
+2014-10-19 16:53:03,115 DEBUG io.netty.util.internal.logging.Slf4JLogger debug main Using SLF4J as the default logging framework
+2014-10-19 16:53:03,147 DEBUG io.netty.util.internal.logging.Slf4JLogger debug main java.nio.Buffer.address: available
+2014-10-19 16:53:03,147 DEBUG io.netty.util.internal.logging.Slf4JLogger debug main sun.misc.Unsafe.theUnsafe: available
+2014-10-19 16:53:03,147 DEBUG io.netty.util.internal.logging.Slf4JLogger debug main sun.misc.Unsafe.copyMemory: available
+2014-10-19 16:53:03,147 DEBUG io.netty.util.internal.logging.Slf4JLogger debug main java.nio.Bits.unaligned: true
+2014-10-19 16:53:03,162 DEBUG io.netty.util.internal.logging.Slf4JLogger debug main Platform: Windows
+2014-10-19 16:53:03,162 DEBUG io.netty.util.internal.logging.Slf4JLogger debug main Java version: 7
+2014-10-19 16:53:03,162 DEBUG io.netty.util.internal.logging.Slf4JLogger debug main -Dio.netty.noUnsafe: false
+2014-10-19 16:53:03,162 DEBUG io.netty.util.internal.logging.Slf4JLogger debug main sun.misc.Unsafe: available
+2014-10-19 16:53:03,162 DEBUG io.netty.util.internal.logging.Slf4JLogger debug main -Dio.netty.noJavassist: false
+2014-10-19 16:53:03,506 DEBUG io.netty.util.internal.logging.Slf4JLogger debug main Javassist: available
+2014-10-19 16:53:03,506 DEBUG io.netty.util.internal.logging.Slf4JLogger debug main -Dio.netty.tmpdir: C:\Users\lee\AppData\Local\Temp (java.io.tmpdir)
+2014-10-19 16:53:03,506 DEBUG io.netty.util.internal.logging.Slf4JLogger debug main -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2014-10-19 16:53:03,506 DEBUG io.netty.util.internal.logging.Slf4JLogger debug main -Dio.netty.noPreferDirect: false
+2014-10-19 16:53:03,553 DEBUG io.netty.util.internal.logging.Slf4JLogger debug main -Dio.netty.eventLoopThreads: 8
+2014-10-19 16:53:03,569 DEBUG io.netty.util.internal.logging.Slf4JLogger debug main -Dio.netty.noKeySetOptimization: false
+2014-10-19 16:53:03,569 DEBUG io.netty.util.internal.logging.Slf4JLogger debug main -Dio.netty.selectorAutoRebuildThreshold: 512
+2014-10-19 16:53:03,772 DEBUG io.netty.util.internal.logging.Slf4JLogger debug main -Dio.netty.initialSeedUniquifier: 0x35e285b14792c17e
+2014-10-19 16:53:03,787 DEBUG io.netty.util.internal.logging.Slf4JLogger debug main -Dio.netty.threadLocalDirectBufferSize: 65536
+2014-10-19 16:53:03,787 DEBUG io.netty.util.internal.logging.Slf4JLogger debug main -Dio.netty.recycler.maxCapacity.default: 262144
+2014-10-19 16:53:03,834 DEBUG io.netty.util.internal.logging.Slf4JLogger debug main -Dio.netty.allocator.type: unpooled
+2014-10-19 16:53:03,990 DEBUG io.netty.util.internal.logging.Slf4JLogger debug main Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2014-10-19 16:53:05,022 DEBUG io.netty.util.internal.logging.Slf4JLogger debug com.microsoft.wake.remote.transport.netty.NettyMessagingTransportClientWorker-pool-5-thread-1 Generated: io.netty.util.internal.__matchers__.io.netty.buffer.ByteBufMatcher
+2014-10-19 16:53:05,022 DEBUG io.netty.util.internal.logging.Slf4JLogger debug com.microsoft.wake.remote.transport.netty.NettyMessagingTransportClientWorker-pool-5-thread-1 Generated: io.netty.util.internal.__matchers__.byte[]Matcher
+2014-10-19 16:53:05,116 DEBUG io.netty.util.internal.logging.Slf4JLogger debug com.microsoft.wake.remote.impl.RemoteSenderStage-pool-6-thread-1 -Dio.netty.leakDetectionLevel: simple
+2014-10-19 16:53:05,147 DEBUG io.netty.util.internal.logging.Slf4JLogger debug com.microsoft.wake.remote.transport.netty.NettyMessagingTransportClientWorker-pool-5-thread-1 java.nio.ByteBuffer.cleaner(): available
+Success rate is: 2788 / 4601 = 0.6059552271245382
+2014-10-19 16:53:08,819 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-10-19 16:53:08,819 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1813 / 4601 = 0.39404477287546186
+2014-10-19 16:53:08,850 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2762 / 4601 = 0.6003042816778961
+2014-10-19 16:53:08,897 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1813 / 4601 = 0.39404477287546186
+2014-10-19 16:53:08,959 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1813 / 4601 = 0.39404477287546186
+2014-10-19 16:53:09,038 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2788 / 4601 = 0.6059552271245382
+2014-10-19 16:53:09,147 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1813 / 4601 = 0.39404477287546186
+2014-10-19 16:53:09,225 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1813 / 4601 = 0.39404477287546186
+2014-10-19 16:53:09,288 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2788 / 4601 = 0.6059552271245382
+2014-10-19 16:53:09,319 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1813 / 4601 = 0.39404477287546186
+2014-10-19 16:53:09,381 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1813 / 4601 = 0.39404477287546186
+2014-10-19 16:53:09,413 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2799 / 4601 = 0.608346011736579
+2014-10-19 16:53:09,428 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1813 / 4601 = 0.39404477287546186
+2014-10-19 16:53:09,459 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1817 / 4601 = 0.3949141490980222
+2014-10-19 16:53:09,491 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2788 / 4601 = 0.6059552271245382
+2014-10-19 16:53:09,522 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1813 / 4601 = 0.39404477287546186
+2014-10-19 16:53:09,538 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1895 / 4601 = 0.41186698543794825
+2014-10-19 16:53:09,584 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2802 / 4601 = 0.6089980439034992
+2014-10-19 16:53:09,616 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1813 / 4601 = 0.39404477287546186
+2014-10-19 16:53:09,647 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2038 / 4601 = 0.44294718539447947
+2014-10-19 16:53:09,709 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2807 / 4601 = 0.6100847641816997
+2014-10-19 16:53:09,741 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1813 / 4601 = 0.39404477287546186
+2014-10-19 16:53:09,756 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1907 / 4601 = 0.4144751141056292
+2014-10-19 16:53:09,788 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2802 / 4601 = 0.6089980439034992
+2014-10-19 16:53:09,850 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1813 / 4601 = 0.39404477287546186
+2014-10-19 16:53:09,881 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2225 / 4601 = 0.4835905237991741
+2014-10-19 16:53:09,913 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1898 / 4601 = 0.41251901760486853
+2014-10-19 16:53:09,928 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2818 / 4601 = 0.6124755487937404
+2014-10-19 16:53:09,944 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1813 / 4601 = 0.39404477287546186
+2014-10-19 16:53:09,975 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1959 / 4601 = 0.4257770049989133
+2014-10-19 16:53:10,006 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2813 / 4601 = 0.6113888285155401
+2014-10-19 16:53:10,022 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1817 / 4601 = 0.3949141490980222
+2014-10-19 16:53:10,053 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1919 / 4601 = 0.41708324277331016
+2014-10-19 16:53:10,069 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2820 / 4601 = 0.6129102369050207
+2014-10-19 16:53:10,100 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1817 / 4601 = 0.3949141490980222
+2014-10-19 16:53:10,116 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2426 / 4601 = 0.5272766789828298
+2014-10-19 16:53:10,147 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1822 / 4601 = 0.3960008693762226
+2014-10-19 16:53:10,163 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2812 / 4601 = 0.6111714844599
+2014-10-19 16:53:10,194 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1817 / 4601 = 0.3949141490980222
+2014-10-19 16:53:10,210 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2157 / 4601 = 0.4688111280156488
+2014-10-19 16:53:10,225 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2356 / 4601 = 0.5120625950880243
+2014-10-19 16:53:10,256 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1907 / 4601 = 0.4144751141056292
+2014-10-19 16:53:10,272 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2819 / 4601 = 0.6126928928493806
+2014-10-19 16:53:10,288 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1817 / 4601 = 0.3949141490980222
+2014-10-19 16:53:10,303 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1923 / 4601 = 0.41795261899587044
+2014-10-19 16:53:10,335 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2822 / 4601 = 0.6133449250163008
+2014-10-19 16:53:10,350 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1822 / 4601 = 0.3960008693762226
+2014-10-19 16:53:10,366 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2436 / 4601 = 0.5294501195392306
+2014-10-19 16:53:10,381 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1903 / 4601 = 0.4136057378830689
+2014-10-19 16:53:10,413 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2812 / 4601 = 0.6111714844599
+2014-10-19 16:53:10,460 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1817 / 4601 = 0.3949141490980222
+2014-10-19 16:53:10,491 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1953 / 4601 = 0.4244729406650728
+2014-10-19 16:53:10,538 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2824 / 4601 = 0.613779613127581
+2014-10-19 16:53:10,569 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1822 / 4601 = 0.3960008693762226
+2014-10-19 16:53:10,600 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2462 / 4601 = 0.5351010649858726
+2014-10-19 16:53:10,616 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1909 / 4601 = 0.4149098022169094
+2014-10-19 16:53:10,647 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2820 / 4601 = 0.6129102369050207
+2014-10-19 16:53:10,663 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1822 / 4601 = 0.3960008693762226
+2014-10-19 16:53:10,678 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2154 / 4601 = 0.46815909584872856
+2014-10-19 16:53:10,694 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2856 / 4601 = 0.6207346229080635
+2014-10-19 16:53:10,710 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1822 / 4601 = 0.3960008693762226
+2014-10-19 16:53:10,725 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2225 / 4601 = 0.4835905237991741
+2014-10-19 16:53:10,756 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2838 / 4601 = 0.616822429906542
+2014-10-19 16:53:10,772 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1825 / 4601 = 0.3966529015431428
+2014-10-19 16:53:10,788 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2321 / 4601 = 0.5044555531406216
+2014-10-19 16:53:10,819 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1976 / 4601 = 0.4294718539447946
+2014-10-19 16:53:10,835 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2813 / 4601 = 0.6113888285155401
+2014-10-19 16:53:10,866 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1825 / 4601 = 0.3966529015431428
+2014-10-19 16:53:10,897 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2373 / 4601 = 0.5157574440339057
+2014-10-19 16:53:10,928 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1941 / 4601 = 0.4218648119973919
+2014-10-19 16:53:11,022 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2833 / 4601 = 0.6157357096283417
+2014-10-19 16:53:11,053 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1825 / 4601 = 0.3966529015431428
+2014-10-19 16:53:11,069 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2132 / 4601 = 0.4633775266246468
+2014-10-19 16:53:11,085 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2868 / 4601 = 0.6233427515757444
+2014-10-19 16:53:11,100 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1826 / 4601 = 0.39687024559878287
+2014-10-19 16:53:11,116 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2024 / 4601 = 0.43990436861551835
+2014-10-19 16:53:11,131 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2829 / 4601 = 0.6148663334057813
+2014-10-19 16:53:11,147 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1897 / 4601 = 0.4123016735492284
+2014-10-19 16:53:11,163 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2532 / 4601 = 0.5503151488806781
+2014-10-19 16:53:11,178 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1926 / 4601 = 0.4186046511627907
+2014-10-19 16:53:11,194 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2832 / 4601 = 0.6155183655727016
+2014-10-19 16:53:11,210 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1828 / 4601 = 0.39730493371006304
+2014-10-19 16:53:11,225 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2021 / 4601 = 0.4392523364485981
+2014-10-19 16:53:11,241 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2829 / 4601 = 0.6148663334057813
+2014-10-19 16:53:11,256 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1901 / 4601 = 0.41317104977178876
+2014-10-19 16:53:11,272 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2581 / 4601 = 0.5609650076070419
+2014-10-19 16:53:11,288 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1911 / 4601 = 0.41534449032818954
+2014-10-19 16:53:11,303 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2887 / 4601 = 0.6274722886329059
+2014-10-19 16:53:11,303 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1899 / 4601 = 0.4127363616605086
+2014-10-19 16:53:11,319 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2361 / 4601 = 0.5131493153662248
+2014-10-19 16:53:11,335 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2006 / 4601 = 0.43599217561399695
+2014-10-19 16:53:11,350 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2832 / 4601 = 0.6155183655727016
+2014-10-19 16:53:11,366 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1902 / 4601 = 0.4133883938274288
+2014-10-19 16:53:11,381 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2553 / 4601 = 0.5548793740491198
+2014-10-19 16:53:11,397 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1937 / 4601 = 0.42099543577483156
+2014-10-19 16:53:11,397 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2846 / 4601 = 0.6185611823516627
+2014-10-19 16:53:11,413 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1899 / 4601 = 0.4127363616605086
+2014-10-19 16:53:11,428 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2027 / 4601 = 0.4405564007824386
+2014-10-19 16:53:11,444 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2835 / 4601 = 0.6161703977396218
+2014-10-19 16:53:11,460 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1905 / 4601 = 0.41404042599434904
+2014-10-19 16:53:11,475 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2554 / 4601 = 0.5550967181047598
+2014-10-19 16:53:11,491 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1933 / 4601 = 0.4201260595522712
+2014-10-19 16:53:11,506 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2895 / 4601 = 0.6292110410780265
+2014-10-19 16:53:11,522 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1903 / 4601 = 0.4136057378830689
+2014-10-19 16:53:11,538 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2252 / 4601 = 0.4894588133014562
+2014-10-19 16:53:11,553 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2885 / 4601 = 0.6270376005216257
+2014-10-19 16:53:11,569 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1906 / 4601 = 0.41425777004998915
+2014-10-19 16:53:11,585 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2328 / 4601 = 0.5059769615301022
+2014-10-19 16:53:11,600 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2811 / 4601 = 0.61095414040426
+2014-10-19 16:53:11,616 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1914 / 4601 = 0.41599652249510977
+2014-10-19 16:53:11,631 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2839 / 4601 = 0.6170397739621821
+2014-10-19 16:53:11,647 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1913 / 4601 = 0.41577917843946965
+2014-10-19 16:53:11,663 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2698 / 4601 = 0.5863942621169311
+2014-10-19 16:53:11,678 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1946 / 4601 = 0.4229515322755923
+2014-10-19 16:53:11,710 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2861 / 4601 = 0.6218213431862638
+2014-10-19 16:53:11,725 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1899 / 4601 = 0.4127363616605086
+2014-10-19 16:53:11,741 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2017 / 4601 = 0.43838296022603784
+2014-10-19 16:53:11,756 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2810 / 4601 = 0.6107367963486199
+2014-10-19 16:53:11,772 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1906 / 4601 = 0.41425777004998915
+2014-10-19 16:53:11,803 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2117 / 4601 = 0.46011736579004564
+2014-10-19 16:53:11,835 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2830 / 4601 = 0.6150836774614215
+2014-10-19 16:53:11,850 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1912 / 4601 = 0.4155618343838296
+2014-10-19 16:53:11,881 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2508 / 4601 = 0.5450988915453162
+2014-10-19 16:53:11,881 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1985 / 4601 = 0.4314279504455553
+2014-10-19 16:53:11,913 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2856 / 4601 = 0.6207346229080635
+2014-10-19 16:53:11,928 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1906 / 4601 = 0.41425777004998915
+2014-10-19 16:53:11,944 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2101 / 4601 = 0.4566398608998044
+2014-10-19 16:53:11,960 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2835 / 4601 = 0.6161703977396218
+2014-10-19 16:53:11,991 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1913 / 4601 = 0.41577917843946965
+2014-10-19 16:53:12,006 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2620 / 4601 = 0.569441425777005
+2014-10-19 16:53:12,022 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1964 / 4601 = 0.4268637252771137
+2014-10-19 16:53:12,038 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2862 / 4601 = 0.6220386872419039
+2014-10-19 16:53:12,069 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1913 / 4601 = 0.41577917843946965
+2014-10-19 16:53:12,085 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2296 / 4601 = 0.49902195174961966
+2014-10-19 16:53:12,100 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2922 / 4601 = 0.6350793305803086
+2014-10-19 16:53:12,116 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1915 / 4601 = 0.4162138665507498
+2014-10-19 16:53:12,131 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2421 / 4601 = 0.5261899587046295
+2014-10-19 16:53:12,147 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2575 / 4601 = 0.5596609432732015
+2014-10-19 16:53:12,163 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2005 / 4601 = 0.4357748315583569
+2014-10-19 16:53:12,178 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2851 / 4601 = 0.619647902629863
+2014-10-19 16:53:12,194 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1915 / 4601 = 0.4162138665507498
+2014-10-19 16:53:12,210 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2123 / 4601 = 0.4614214301238861
+2014-10-19 16:53:12,225 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2825 / 4601 = 0.613996957183221
+2014-10-19 16:53:12,241 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1923 / 4601 = 0.41795261899587044
+2014-10-19 16:53:12,257 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2582 / 4601 = 0.561182351662682
+2014-10-19 16:53:12,272 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1998 / 4601 = 0.43425342316887633
+2014-10-19 16:53:12,288 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2861 / 4601 = 0.6218213431862638
+2014-10-19 16:53:12,303 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1915 / 4601 = 0.4162138665507498
+2014-10-19 16:53:12,319 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2124 / 4601 = 0.4616387741795262
+2014-10-19 16:53:12,335 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2853 / 4601 = 0.6200825907411432
+2014-10-19 16:53:12,350 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1925 / 4601 = 0.4183873071071506
+2014-10-19 16:53:12,382 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2642 / 4601 = 0.5742229950010868
+2014-10-19 16:53:12,413 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1978 / 4601 = 0.42990654205607476
+2014-10-19 16:53:12,444 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2856 / 4601 = 0.6207346229080635
+2014-10-19 16:53:12,475 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1923 / 4601 = 0.41795261899587044
+2014-10-19 16:53:12,491 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2352 / 4601 = 0.511193218865464
+2014-10-19 16:53:12,507 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2935 / 4601 = 0.6379048033036296
+2014-10-19 16:53:12,522 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1926 / 4601 = 0.4186046511627907
+2014-10-19 16:53:12,538 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2499 / 4601 = 0.5431427950445555
+2014-10-19 16:53:12,538 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2093 / 4601 = 0.4549011084546838
+2014-10-19 16:53:12,553 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2826 / 4601 = 0.6142143012388611
+2014-10-19 16:53:12,569 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1927 / 4601 = 0.4188219952184308
+2014-10-19 16:53:12,585 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2607 / 4601 = 0.566615953053684
+2014-10-19 16:53:12,600 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2009 / 4601 = 0.43664420778091717
+2014-10-19 16:53:12,616 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2863 / 4601 = 0.622256031297544
+2014-10-19 16:53:12,616 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1923 / 4601 = 0.41795261899587044
+2014-10-19 16:53:12,632 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2152 / 4601 = 0.4677244077374484
+2014-10-19 16:53:12,647 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2857 / 4601 = 0.6209519669637036
+2014-10-19 16:53:12,663 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1926 / 4601 = 0.4186046511627907
+2014-10-19 16:53:12,678 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2556 / 4601 = 0.55553140621604
+2014-10-19 16:53:12,694 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2024 / 4601 = 0.43990436861551835
+2014-10-19 16:53:12,710 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2859 / 4601 = 0.6213866550749837
+2014-10-19 16:53:12,710 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1926 / 4601 = 0.4186046511627907
+2014-10-19 16:53:12,725 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2360 / 4601 = 0.5129319713105847
+2014-10-19 16:53:12,741 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2942 / 4601 = 0.6394262116931102
+2014-10-19 16:53:12,757 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1929 / 4601 = 0.41925668332971094
+2014-10-19 16:53:12,772 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2580 / 4601 = 0.5607476635514018
+2014-10-19 16:53:12,788 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2038 / 4601 = 0.44294718539447947
+2014-10-19 16:53:12,803 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2857 / 4601 = 0.6209519669637036
+2014-10-19 16:53:12,819 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1929 / 4601 = 0.41925668332971094
+2014-10-19 16:53:12,819 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2411 / 4601 = 0.5240165181482287
+2014-10-19 16:53:12,835 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2957 / 4601 = 0.6426863725277113
+2014-10-19 16:53:12,850 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1934 / 4601 = 0.42034340360791134
+2014-10-19 16:53:12,866 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2541 / 4601 = 0.5522712453814388
+2014-10-19 16:53:12,882 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2191 / 4601 = 0.4762008259074114
+2014-10-19 16:53:12,897 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2824 / 4601 = 0.613779613127581
+2014-10-19 16:53:12,897 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1943 / 4601 = 0.422299500108672
+2014-10-19 16:53:12,913 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2672 / 4601 = 0.5807433166702891
+2014-10-19 16:53:12,928 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2019 / 4601 = 0.43881764833731796
+2014-10-19 16:53:12,944 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2868 / 4601 = 0.6233427515757444
+2014-10-19 16:53:12,960 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1929 / 4601 = 0.41925668332971094
+2014-10-19 16:53:12,975 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2165 / 4601 = 0.4705498804607694
+2014-10-19 16:53:12,991 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2850 / 4601 = 0.619430558574223
+2014-10-19 16:53:13,007 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1943 / 4601 = 0.422299500108672
+2014-10-19 16:53:13,022 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2768 / 4601 = 0.6016083460117366
+2014-10-19 16:53:13,053 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1993 / 4601 = 0.43316670289067594
+2014-10-19 16:53:13,069 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2879 / 4601 = 0.6257335361877853
+2014-10-19 16:53:13,085 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1943 / 4601 = 0.422299500108672
+2014-10-19 16:53:13,100 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2498 / 4601 = 0.5429254509889154
+2014-10-19 16:53:13,116 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2866 / 4601 = 0.6229080634644643
+2014-10-19 16:53:13,132 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1970 / 4601 = 0.42816778961095414
+2014-10-19 16:53:13,147 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2981 / 4601 = 0.6479026298630732
+2014-10-19 16:53:13,178 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1945 / 4601 = 0.4227341882199522
+2014-10-19 16:53:13,194 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2493 / 4601 = 0.5418387307107151
+2014-10-19 16:53:13,194 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2984 / 4601 = 0.6485546620299935
+2014-10-19 16:53:13,210 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1946 / 4601 = 0.4229515322755923
+2014-10-19 16:53:13,225 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2323 / 4601 = 0.5048902412519017
+2014-10-19 16:53:13,241 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2853 / 4601 = 0.6200825907411432
+2014-10-19 16:53:13,272 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1937 / 4601 = 0.42099543577483156
+2014-10-19 16:53:13,303 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2146 / 4601 = 0.4664203434036079
+2014-10-19 16:53:13,335 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2826 / 4601 = 0.6142143012388611
+2014-10-19 16:53:13,350 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1947 / 4601 = 0.42316887633123235
+2014-10-19 16:53:13,366 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2675 / 4601 = 0.5813953488372093
+2014-10-19 16:53:13,382 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2062 / 4601 = 0.4481634427298413
+2014-10-19 16:53:13,397 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2860 / 4601 = 0.6216039991306238
+2014-10-19 16:53:13,413 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1944 / 4601 = 0.4225168441643121
+2014-10-19 16:53:13,413 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2343 / 4601 = 0.5092371223647033
+2014-10-19 16:53:13,428 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2894 / 4601 = 0.6289936970223864
+2014-10-19 16:53:13,444 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1945 / 4601 = 0.4227341882199522
+2014-10-19 16:53:13,460 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2402 / 4601 = 0.5220604216474679
+2014-10-19 16:53:13,475 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2931 / 4601 = 0.6370354270810693
+2014-10-19 16:53:13,491 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1945 / 4601 = 0.4227341882199522
+2014-10-19 16:53:13,491 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2267 / 4601 = 0.49271897413605736
+2014-10-19 16:53:13,507 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2861 / 4601 = 0.6218213431862638
+2014-10-19 16:53:13,522 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1946 / 4601 = 0.4229515322755923
+2014-10-19 16:53:13,538 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2333 / 4601 = 0.5070636818083025
+2014-10-19 16:53:13,553 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2893 / 4601 = 0.6287763529667464
+2014-10-19 16:53:13,569 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1947 / 4601 = 0.42316887633123235
+2014-10-19 16:53:13,585 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2477 / 4601 = 0.5383612258204739
+2014-10-19 16:53:13,585 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 3016 / 4601 = 0.655509671810476
+2014-10-19 16:53:13,600 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1951 / 4601 = 0.4240382525537926
+2014-10-19 16:53:13,616 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2607 / 4601 = 0.566615953053684
+2014-10-19 16:53:13,632 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 3042 / 4601 = 0.661160617257118
+2014-10-19 16:53:13,647 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1967 / 4601 = 0.4275157574440339
+2014-10-19 16:53:13,663 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 3049 / 4601 = 0.6626820256465986
+2014-10-19 16:53:13,663 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1969 / 4601 = 0.4279504455553141
+2014-10-19 16:53:13,678 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 3050 / 4601 = 0.6628993697022386
+2014-10-19 16:53:13,694 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1967 / 4601 = 0.4275157574440339
+2014-10-19 16:53:13,710 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 3075 / 4601 = 0.6683329710932406
+2014-10-19 16:53:13,725 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1988 / 4601 = 0.43207998261247554
+2014-10-19 16:53:13,725 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2923 / 4601 = 0.6352966746359487
+2014-10-19 16:53:13,741 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1949 / 4601 = 0.4236035644425125
+2014-10-19 16:53:13,757 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2169 / 4601 = 0.47141925668332973
+2014-10-19 16:53:13,772 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2789 / 4601 = 0.6061725711801782
+2014-10-19 16:53:13,788 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1953 / 4601 = 0.4244729406650728
+2014-10-19 16:53:13,788 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2271 / 4601 = 0.4935883503586177
+2014-10-19 16:53:13,803 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2789 / 4601 = 0.6061725711801782
+2014-10-19 16:53:13,819 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1960 / 4601 = 0.42599434905455336
+2014-10-19 16:53:13,835 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2761 / 4601 = 0.6000869376222561
+2014-10-19 16:53:13,850 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2110 / 4601 = 0.4585959574005651
+2014-10-19 16:53:13,866 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2845 / 4601 = 0.6183438382960226
+2014-10-19 16:53:13,866 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1951 / 4601 = 0.4240382525537926
+2014-10-19 16:53:13,882 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2321 / 4601 = 0.5044555531406216
+2014-10-19 16:53:13,897 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2883 / 4601 = 0.6266029124103456
+2014-10-19 16:53:13,913 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1950 / 4601 = 0.42382090849815257
+2014-10-19 16:53:13,928 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2246 / 4601 = 0.48815474896761574
+2014-10-19 16:53:13,928 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2859 / 4601 = 0.6213866550749837
+2014-10-19 16:53:13,944 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1963 / 4601 = 0.4266463812214736
+2014-10-19 16:53:13,960 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2800 / 4601 = 0.6085633557922191
+2014-10-19 16:53:13,991 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2052 / 4601 = 0.44599000217344054
+2014-10-19 16:53:14,007 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2880 / 4601 = 0.6259508802434254
+2014-10-19 16:53:14,022 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1952 / 4601 = 0.42425559660943274
+2014-10-19 16:53:14,022 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2333 / 4601 = 0.5070636818083025
+2014-10-19 16:53:14,038 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2897 / 4601 = 0.6296457291893067
+2014-10-19 16:53:14,053 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1963 / 4601 = 0.4266463812214736
+2014-10-19 16:53:14,069 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2681 / 4601 = 0.5826994131710498
+2014-10-19 16:53:14,085 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2163 / 4601 = 0.47011519234948923
+2014-10-19 16:53:14,100 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2851 / 4601 = 0.619647902629863
+2014-10-19 16:53:14,116 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1964 / 4601 = 0.4268637252771137
+2014-10-19 16:53:14,132 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2769 / 4601 = 0.6018256900673766
+2014-10-19 16:53:14,147 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2064 / 4601 = 0.4485981308411215
+2014-10-19 16:53:14,163 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2881 / 4601 = 0.6261682242990654
+2014-10-19 16:53:14,163 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1961 / 4601 = 0.4262116931101934
+2014-10-19 16:53:14,178 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2483 / 4601 = 0.5396652901543143
+2014-10-19 16:53:14,194 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 3004 / 4601 = 0.652901543142795
+2014-10-19 16:53:14,210 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1964 / 4601 = 0.4268637252771137
+2014-10-19 16:53:14,225 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2756 / 4601 = 0.5990002173440556
+2014-10-19 16:53:14,241 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2142 / 4601 = 0.4655509671810476
+2014-10-19 16:53:14,257 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2854 / 4601 = 0.6202999347967834
+2014-10-19 16:53:14,272 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1964 / 4601 = 0.4268637252771137
+2014-10-19 16:53:14,288 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2637 / 4601 = 0.5731362747228863
+2014-10-19 16:53:14,303 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2980 / 4601 = 0.6476852858074331
+2014-10-19 16:53:14,303 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1993 / 4601 = 0.43316670289067594
+2014-10-19 16:53:14,319 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 3022 / 4601 = 0.6568137361443165
+2014-10-19 16:53:14,335 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1968 / 4601 = 0.427733101499674
+2014-10-19 16:53:14,350 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2731 / 4601 = 0.5935666159530537
+2014-10-19 16:53:14,366 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 3057 / 4601 = 0.6644207780917192
+2014-10-19 16:53:14,382 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1974 / 4601 = 0.4290371658335145
+2014-10-19 16:53:14,382 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 3042 / 4601 = 0.661160617257118
+2014-10-19 16:53:14,397 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2086 / 4601 = 0.45337970006520323
+2014-10-19 16:53:14,413 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2856 / 4601 = 0.6207346229080635
+2014-10-19 16:53:14,428 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1960 / 4601 = 0.42599434905455336
+2014-10-19 16:53:14,428 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2180 / 4601 = 0.4738100412953706
+2014-10-19 16:53:14,444 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2824 / 4601 = 0.613779613127581
+2014-10-19 16:53:14,460 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1968 / 4601 = 0.427733101499674
+2014-10-19 16:53:14,475 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2602 / 4601 = 0.5655292327754836
+2014-10-19 16:53:14,491 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2985 / 4601 = 0.6487720060856336
+2014-10-19 16:53:14,507 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1970 / 4601 = 0.42816778961095414
+2014-10-19 16:53:14,507 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2702 / 4601 = 0.5872636383394915
+2014-10-19 16:53:14,522 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 3021 / 4601 = 0.6565963920886764
+2014-10-19 16:53:14,538 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1970 / 4601 = 0.42816778961095414
+2014-10-19 16:53:14,554 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2610 / 4601 = 0.5672679852206042
+2014-10-19 16:53:14,554 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2885 / 4601 = 0.6270376005216257
+2014-10-19 16:53:14,569 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1962 / 4601 = 0.4264290371658335
+2014-10-19 16:53:14,585 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2183 / 4601 = 0.4744620734622908
+2014-10-19 16:53:14,600 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2829 / 4601 = 0.6148663334057813
+2014-10-19 16:53:14,616 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1968 / 4601 = 0.427733101499674
+2014-10-19 16:53:14,616 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2657 / 4601 = 0.5774831558356879
+2014-10-19 16:53:14,632 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 3033 / 4601 = 0.6592045207563573
+2014-10-19 16:53:14,647 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1974 / 4601 = 0.4290371658335145
+2014-10-19 16:53:14,663 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2818 / 4601 = 0.6124755487937404
+2014-10-19 16:53:14,679 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 3090 / 4601 = 0.6715931319278418
+2014-10-19 16:53:14,679 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2065 / 4601 = 0.44881547489676155
+2014-10-19 16:53:14,694 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2886 / 4601 = 0.6272549445772658
+2014-10-19 16:53:14,710 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1964 / 4601 = 0.4268637252771137
+2014-10-19 16:53:14,725 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2186 / 4601 = 0.475114105629211
+2014-10-19 16:53:14,741 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2829 / 4601 = 0.6148663334057813
+2014-10-19 16:53:14,757 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1971 / 4601 = 0.4283851336665942
+2014-10-19 16:53:14,772 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2636 / 4601 = 0.5729189306672462
+2014-10-19 16:53:14,788 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2977 / 4601 = 0.6470332536405129
+2014-10-19 16:53:14,788 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1974 / 4601 = 0.4290371658335145
+2014-10-19 16:53:14,804 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2815 / 4601 = 0.6118235166268202
+2014-10-19 16:53:14,819 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 3067 / 4601 = 0.66659421864812
+2014-10-19 16:53:14,835 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1978 / 4601 = 0.42990654205607476
+2014-10-19 16:53:14,850 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 3088 / 4601 = 0.6711584438165616
+2014-10-19 16:53:14,850 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2102 / 4601 = 0.45685720495544446
+2014-10-19 16:53:14,866 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2859 / 4601 = 0.6213866550749837
+2014-10-19 16:53:14,882 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1966 / 4601 = 0.4272984133883938
+2014-10-19 16:53:14,897 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2193 / 4601 = 0.4766355140186916
+2014-10-19 16:53:14,913 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2827 / 4601 = 0.6144316452945012
+2014-10-19 16:53:14,929 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1974 / 4601 = 0.4290371658335145
+2014-10-19 16:53:14,929 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2604 / 4601 = 0.5659639208867637
+2014-10-19 16:53:14,944 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2943 / 4601 = 0.6396435557487503
+2014-10-19 16:53:14,960 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1974 / 4601 = 0.4290371658335145
+2014-10-19 16:53:14,975 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2369 / 4601 = 0.5148880678113453
+2014-10-19 16:53:14,991 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2836 / 4601 = 0.6163877417952619
+2014-10-19 16:53:15,007 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1975 / 4601 = 0.42925450988915453
+2014-10-19 16:53:15,007 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2862 / 4601 = 0.6220386872419039
+2014-10-19 16:53:15,022 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2198 / 4601 = 0.477722234296892
+2014-10-19 16:53:15,038 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2849 / 4601 = 0.6192132145185829
+2014-10-19 16:53:15,054 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1975 / 4601 = 0.42925450988915453
+2014-10-19 16:53:15,069 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2795 / 4601 = 0.6074766355140186
+2014-10-19 16:53:15,085 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2472 / 4601 = 0.5372745055422734
+2014-10-19 16:53:15,100 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2919 / 4601 = 0.6344272984133884
+2014-10-19 16:53:15,116 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1975 / 4601 = 0.42925450988915453
+2014-10-19 16:53:15,132 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2716 / 4601 = 0.5903064551184525
+2014-10-19 16:53:15,147 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 3060 / 4601 = 0.6650728102586394
+2014-10-19 16:53:15,163 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1980 / 4601 = 0.4303412301673549
+2014-10-19 16:53:15,163 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 3012 / 4601 = 0.6546402955879157
+2014-10-19 16:53:15,179 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2170 / 4601 = 0.4716366007389698
+2014-10-19 16:53:15,194 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2845 / 4601 = 0.6183438382960226
+2014-10-19 16:53:15,210 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1974 / 4601 = 0.4290371658335145
+2014-10-19 16:53:15,225 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2359 / 4601 = 0.5127146272549445
+2014-10-19 16:53:15,241 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2842 / 4601 = 0.6176918061291023
+2014-10-19 16:53:15,257 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1980 / 4601 = 0.4303412301673549
+2014-10-19 16:53:15,272 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2952 / 4601 = 0.641599652249511
+2014-10-19 16:53:15,272 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2126 / 4601 = 0.46207346229080637
+2014-10-19 16:53:15,288 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2887 / 4601 = 0.6274722886329059
+2014-10-19 16:53:15,304 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1975 / 4601 = 0.42925450988915453
+2014-10-19 16:53:15,319 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2581 / 4601 = 0.5609650076070419
+2014-10-19 16:53:15,319 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2970 / 4601 = 0.6455118452510323
+2014-10-19 16:53:15,350 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1980 / 4601 = 0.4303412301673549
+2014-10-19 16:53:15,366 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2877 / 4601 = 0.6252988480765052
+2014-10-19 16:53:15,382 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 3037 / 4601 = 0.6600738969789176
+2014-10-19 16:53:15,397 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2137 / 4601 = 0.4644642469028472
+2014-10-19 16:53:15,397 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2862 / 4601 = 0.6220386872419039
+2014-10-19 16:53:15,413 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1974 / 4601 = 0.4290371658335145
+2014-10-19 16:53:15,429 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2290 / 4601 = 0.49771788741577916
+2014-10-19 16:53:15,444 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2836 / 4601 = 0.6163877417952619
+2014-10-19 16:53:15,460 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1985 / 4601 = 0.4314279504455553
+2014-10-19 16:53:15,460 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 3042 / 4601 = 0.661160617257118
+2014-10-19 16:53:15,475 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2092 / 4601 = 0.4546837643990437
+2014-10-19 16:53:15,491 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2921 / 4601 = 0.6348619865246685
+2014-10-19 16:53:15,507 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1981 / 4601 = 0.430558574222995
+2014-10-19 16:53:15,522 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2942 / 4601 = 0.6394262116931102
+2014-10-19 16:53:15,522 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2236 / 4601 = 0.48598130841121495
+2014-10-19 16:53:15,538 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2849 / 4601 = 0.6192132145185829
+2014-10-19 16:53:15,554 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1983 / 4601 = 0.43099326233427515
+2014-10-19 16:53:15,569 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2900 / 4601 = 0.630297761356227
+2014-10-19 16:53:15,585 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2186 / 4601 = 0.475114105629211
+2014-10-19 16:53:15,600 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2860 / 4601 = 0.6216039991306238
+2014-10-19 16:53:15,616 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1981 / 4601 = 0.430558574222995
+2014-10-19 16:53:15,632 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2789 / 4601 = 0.6061725711801782
+2014-10-19 16:53:15,647 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 3080 / 4601 = 0.669419691371441
+2014-10-19 16:53:15,647 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2014 / 4601 = 0.43773092805911756
+2014-10-19 16:53:15,663 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 3067 / 4601 = 0.66659421864812
+2014-10-19 16:53:15,679 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1989 / 4601 = 0.4322973266681156
+2014-10-19 16:53:15,694 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 3111 / 4601 = 0.6761573570962834
+2014-10-19 16:53:15,710 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2091 / 4601 = 0.4544664203434036
+2014-10-19 16:53:15,725 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2927 / 4601 = 0.636166050858509
+2014-10-19 16:53:15,725 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1982 / 4601 = 0.4307759182786351
+2014-10-19 16:53:15,741 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2601 / 4601 = 0.5653118887198435
+2014-10-19 16:53:15,757 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2861 / 4601 = 0.6218213431862638
+2014-10-19 16:53:15,772 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1980 / 4601 = 0.4303412301673549
+2014-10-19 16:53:15,788 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2342 / 4601 = 0.5090197783090632
+2014-10-19 16:53:15,788 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2836 / 4601 = 0.6163877417952619
+2014-10-19 16:53:15,804 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1990 / 4601 = 0.4325146707237557
+2014-10-19 16:53:15,819 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 3070 / 4601 = 0.6672462508150402
+2014-10-19 16:53:15,835 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2098 / 4601 = 0.4559878287328842
+2014-10-19 16:53:15,835 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2929 / 4601 = 0.6366007389697892
+2014-10-19 16:53:15,850 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1986 / 4601 = 0.4316452945011954
+2014-10-19 16:53:15,866 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2982 / 4601 = 0.6481199739187133
+2014-10-19 16:53:15,882 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2234 / 4601 = 0.4855466202999348
+2014-10-19 16:53:15,897 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2855 / 4601 = 0.6205172788524234
+2014-10-19 16:53:15,913 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1985 / 4601 = 0.4314279504455553
+2014-10-19 16:53:15,929 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2878 / 4601 = 0.6255161921321452
+2014-10-19 16:53:15,944 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 3102 / 4601 = 0.6742012605955228
+2014-10-19 16:53:15,960 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2066 / 4601 = 0.44903281895240166
+2014-10-19 16:53:15,960 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2923 / 4601 = 0.6352966746359487
+2014-10-19 16:53:15,975 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1985 / 4601 = 0.4314279504455553
+2014-10-19 16:53:15,991 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2671 / 4601 = 0.580525972614649
+2014-10-19 16:53:16,007 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2925 / 4601 = 0.6357313627472289
+2014-10-19 16:53:16,007 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1987 / 4601 = 0.4318626385568355
+2014-10-19 16:53:16,038 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2903 / 4601 = 0.6309497935231472
+2014-10-19 16:53:16,054 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 3073 / 4601 = 0.6678982829819604
+2014-10-19 16:53:16,085 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1994 / 4601 = 0.433384046946316
+2014-10-19 16:53:16,116 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 3112 / 4601 = 0.6763747011519234
+2014-10-19 16:53:16,163 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2196 / 4601 = 0.4772875461856118
+2014-10-19 16:53:16,179 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2844 / 4601 = 0.6181264942403826
+2014-10-19 16:53:16,194 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1982 / 4601 = 0.4307759182786351
+2014-10-19 16:53:16,194 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2400 / 4601 = 0.5216257335361878
+2014-10-19 16:53:16,210 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2826 / 4601 = 0.6142143012388611
+2014-10-19 16:53:16,225 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1994 / 4601 = 0.433384046946316
+2014-10-19 16:53:16,241 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 3080 / 4601 = 0.669419691371441
+2014-10-19 16:53:16,241 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2130 / 4601 = 0.46294283851336665
+2014-10-19 16:53:16,257 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2899 / 4601 = 0.6300804173005868
+2014-10-19 16:53:16,272 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1988 / 4601 = 0.43207998261247554
+2014-10-19 16:53:16,288 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2859 / 4601 = 0.6213866550749837
+2014-10-19 16:53:16,288 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 3044 / 4601 = 0.6615953053683982
+2014-10-19 16:53:16,304 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1993 / 4601 = 0.43316670289067594
+2014-10-19 16:53:16,319 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 3046 / 4601 = 0.6620299934796783
+2014-10-19 16:53:16,335 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2455 / 4601 = 0.5335796565963921
+2014-10-19 16:53:16,335 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2812 / 4601 = 0.6111714844599
+2014-10-19 16:53:16,350 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1995 / 4601 = 0.4336013910019561
+2014-10-19 16:53:16,366 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 3053 / 4601 = 0.6635514018691588
+2014-10-19 16:53:16,382 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2218 / 4601 = 0.48206911540969355
+2014-10-19 16:53:16,382 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2862 / 4601 = 0.6220386872419039
+2014-10-19 16:53:16,397 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1988 / 4601 = 0.43207998261247554
+2014-10-19 16:53:16,413 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2680 / 4601 = 0.5824820691154097
+2014-10-19 16:53:16,429 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2938 / 4601 = 0.6385568354705499
+2014-10-19 16:53:16,429 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1993 / 4601 = 0.43316670289067594
+2014-10-19 16:53:16,444 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2989 / 4601 = 0.6496413823081939
+2014-10-19 16:53:16,460 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2892 / 4601 = 0.6285590089111063
+2014-10-19 16:53:16,475 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 3022 / 4601 = 0.6568137361443165
+2014-10-19 16:53:16,475 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1995 / 4601 = 0.4336013910019561
+2014-10-19 16:53:16,491 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2999 / 4601 = 0.6518148228645947
+2014-10-19 16:53:16,507 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 3083 / 4601 = 0.6700717235383612
+2014-10-19 16:53:16,522 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2010 / 4601 = 0.4368615518365573
+2014-10-19 16:53:16,538 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 3164 / 4601 = 0.6876765920452076
+2014-10-19 16:53:16,538 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2160 / 4601 = 0.469463160182569
+2014-10-19 16:53:16,554 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2855 / 4601 = 0.6205172788524234
+2014-10-19 16:53:16,569 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1982 / 4601 = 0.4307759182786351
+2014-10-19 16:53:16,569 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2319 / 4601 = 0.5040208650293414
+2014-10-19 16:53:16,585 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2835 / 4601 = 0.6161703977396218
+2014-10-19 16:53:16,600 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1993 / 4601 = 0.43316670289067594
+2014-10-19 16:53:16,616 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2845 / 4601 = 0.6183438382960226
+2014-10-19 16:53:16,616 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2932 / 4601 = 0.6372527711367094
+2014-10-19 16:53:16,632 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1993 / 4601 = 0.43316670289067594
+2014-10-19 16:53:16,647 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2628 / 4601 = 0.5711801782221256
+2014-10-19 16:53:16,663 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2850 / 4601 = 0.619430558574223
+2014-10-19 16:53:16,663 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1993 / 4601 = 0.43316670289067594
+2014-10-19 16:53:16,679 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2868 / 4601 = 0.6233427515757444
+2014-10-19 16:53:16,694 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 3016 / 4601 = 0.655509671810476
+2014-10-19 16:53:16,710 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2003 / 4601 = 0.4353401434470767
+2014-10-19 16:53:16,710 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 3013 / 4601 = 0.6548576396435557
+2014-10-19 16:53:16,725 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 3166 / 4601 = 0.6881112801564877
+2014-10-19 16:53:16,741 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2138 / 4601 = 0.46468159095848727
+2014-10-19 16:53:16,757 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2901 / 4601 = 0.630515105411867
+2014-10-19 16:53:16,757 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1989 / 4601 = 0.4322973266681156
+2014-10-19 16:53:16,772 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2456 / 4601 = 0.5337970006520322
+2014-10-19 16:53:16,788 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2828 / 4601 = 0.6146489893501412
+2014-10-19 16:53:16,804 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2007 / 4601 = 0.43620951966963706
+2014-10-19 16:53:16,804 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 3099 / 4601 = 0.6735492284286024
+2014-10-19 16:53:16,819 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2182 / 4601 = 0.47424472940665074
+2014-10-19 16:53:16,835 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2881 / 4601 = 0.6261682242990654
+2014-10-19 16:53:16,835 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1993 / 4601 = 0.43316670289067594
+2014-10-19 16:53:16,850 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2644 / 4601 = 0.5746576831123669
+2014-10-19 16:53:16,866 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2918 / 4601 = 0.6342099543577483
+2014-10-19 16:53:16,882 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2010 / 4601 = 0.4368615518365573
+2014-10-19 16:53:16,882 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 3099 / 4601 = 0.6735492284286024
+2014-10-19 16:53:16,897 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2180 / 4601 = 0.4738100412953706
+2014-10-19 16:53:16,913 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2881 / 4601 = 0.6261682242990654
+2014-10-19 16:53:16,929 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 1994 / 4601 = 0.433384046946316
+2014-10-19 16:53:16,944 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2642 / 4601 = 0.5742229950010868
+2014-10-19 16:53:16,960 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2924 / 4601 = 0.6355140186915887
+2014-10-19 16:53:16,976 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2012 / 4601 = 0.43729623994783745
+2014-10-19 16:53:16,991 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 3105 / 4601 = 0.674853292762443
+2014-10-19 16:53:17,007 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2167 / 4601 = 0.47098456857204957
+2014-10-19 16:53:17,022 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2900 / 4601 = 0.630297761356227
+2014-10-19 16:53:17,022 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2005 / 4601 = 0.4357748315583569
+2014-10-19 16:53:17,038 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2881 / 4601 = 0.6261682242990654
+2014-10-19 16:53:17,054 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 3027 / 4601 = 0.6579004564225168
+2014-10-19 16:53:17,069 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2014 / 4601 = 0.43773092805911756
+2014-10-19 16:53:17,085 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 3090 / 4601 = 0.6715931319278418
+2014-10-19 16:53:17,101 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2420 / 4601 = 0.5259726146489894
+2014-10-19 16:53:17,116 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2837 / 4601 = 0.616605085850902
+2014-10-19 16:53:17,132 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2014 / 4601 = 0.43773092805911756
+2014-10-19 16:53:17,132 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 3087 / 4601 = 0.6709410997609215
+2014-10-19 16:53:17,147 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2243 / 4601 = 0.4875027168006955
+2014-10-19 16:53:17,163 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2869 / 4601 = 0.6235600956313845
+2014-10-19 16:53:17,194 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
+Success rate is: 2005 / 4601 = 0.4357748315583569
+2014-10-19 16:53:17,210 INFO org.mortbay.log.Slf4jLog info TASK:ControllerTask:ControllerTask No changes in topology exist. So not updating topology
