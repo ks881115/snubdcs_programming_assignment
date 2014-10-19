@@ -91,10 +91,8 @@ public class ComputeTask implements Task {
 	@Override
 	public byte[] call(final byte[] memento) throws Exception {
 		LOG.log(Level.FINER, "Logistic regression task started");
-
-		System.out.println("Begin data loading");
 		
-		// Read inputs in advance and avoid redundant read of file
+		// Read assigned split
 		ArrayList<DenseVector> vectors = new ArrayList<DenseVector>();
 		for (final Pair<LongWritable, Text> keyValue : dataSet) {
 			String[] tokens = keyValue.second.toString().split(",");
@@ -104,8 +102,6 @@ public class ComputeTask implements Task {
 			}
 			vectors.add(vector);
 		}
-		
-		System.out.println("Finished data loading. Read " + vectors.size() + " rows.");
 		
 		// Reduce # of rows
 		totalCountReducer.send(vectors.size());
@@ -118,11 +114,9 @@ public class ComputeTask implements Task {
 					.receive();
 			switch (controlMessage) {
 			case Stop:
-				System.out.println("'Stop' msg received");
 				stop = true;
 				break;
 			case Compute:
-				System.out.println("'Compute' msg received");
 				DenseVector theta = thetaBroadcaster.receive();
 
 				// Compute partial result of allocated rows
@@ -132,21 +126,19 @@ public class ComputeTask implements Task {
 				}
 
 				resultReducer.send(partialSum);
-				System.out.println("Sent computed results");
 				break;
 			case Evaluate:
+				// Evaluate result based on received theta
 				theta = thetaBroadcaster.receive();
 				int successCount = 0;
 				for(int i = 0; i < vectors.size(); i++) {
 					DenseVector row = vectors.get(i);
 					// Evaluate with given theta
 					double evaluatedResult = (sigmoid(innerProduct(theta, row)) > 0.5) ? 1.0 : 0.0;
-					System.out.println("Evaluated result is : " + evaluatedResult);
 					// Compare with real result
 					successCount += (evaluatedResult == getY(row)) ? 1 : 0;
 				}
 				successCountReducer.send(successCount);
-				
 				break;
 			default:
 				break;

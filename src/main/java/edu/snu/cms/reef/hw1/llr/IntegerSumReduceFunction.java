@@ -5,7 +5,6 @@ package edu.snu.cms.reef.hw1.llr;
 
 import java.util.Iterator;
 
-import com.microsoft.reef.examples.nggroup.bgd.math.DenseVector;
 import com.microsoft.reef.io.network.group.operators.Reduce.ReduceFunction;
 
 import javax.inject.Inject;

@@ -81,6 +81,7 @@ public class ControllerTask implements Task {
 				.getReduceReceiver(IntegerSumReducer.class);
 	}
 
+	// No convergence check
 	private boolean isConverged(DenseVector oldTheta, DenseVector newTheta) {
 		return false;
 	}
@@ -94,7 +95,7 @@ public class ControllerTask implements Task {
 
 	private DenseVector recomputeTheta(DenseVector oldTheta,
 			DenseVector computedResults) {
-		final double ALPHA = 0.3;
+		final double ALPHA = 0.1;
 
 		DenseVector newTheta = new DenseVector(oldTheta.size());
 		// Skip the first element since it is y
@@ -112,52 +113,42 @@ public class ControllerTask implements Task {
 
 		// Initialize theta with default value
 		initializeTheta(theta, 1.0);
-		System.out.println("Initiated theta");
 		
 		int totalCount = totalCountReducer.reduce();
 
 		int i = 0;
 		do {
 			controlMessageBroadcaster.send(ControlMessages.Compute);
-			System.out.println("Broadcast 'Compute'");
+			// Send theta to every compute node
 			thetaBroadcaster.send(theta);
-			System.out.println("Broadcast theta");
+			// Receive reduced result
 			computedResults = modelReceiveAckReducer.reduce();
-			System.out.println("Reduced results");
 
 			oldTheta = theta;
 			// Recompute theta
 			theta = recomputeTheta(oldTheta, computedResults);
-
-			System.out.println(theta.toString());
 			
+			// Evaluate computed theta
 			controlMessageBroadcaster.send(ControlMessages.Evaluate);
 			thetaBroadcaster.send(theta);
 			int successCount = successCountReducer.reduce();
+			
+			// Print success rate of the evaluated parameters(=theta)
 			System.out.println("Success rate is: " + successCount + " / " + totalCount + " = " + (double) successCount / (double) totalCount);
 			
-			/*final GroupChanges changes = communicationGroupClient
+			final GroupChanges changes = communicationGroupClient
 					.getTopologyChanges();
 			if (changes.exist()) {
 				Log.info("There exist topology changes. Asking to update Topology");
 				communicationGroupClient.updateTopology();
 			} else {
 				Log.info("No changes in topology exist. So not updating topology");
-			}*/
+			}
 		} while (i++ < maxIters && !isConverged(oldTheta, theta));
-
-		// Evaluate results with converged theta
-		/*
-		controlMessageBroadcaster.send(ControlMessages.Evaluate);
-		thetaBroadcaster.send(theta);
-		int successCount = successCountReducer.reduce();
-		System.out.println("Success rate is: " + successCount + " / " + totalCount + " = " + (double) successCount / (double) totalCount);
-		*/
 		
 		// Stop compute tasks
 		controlMessageBroadcaster.send(ControlMessages.Stop);
-		System.out.println("Broadcast 'stop'");
-
+		
 		return null;
 	}
 }

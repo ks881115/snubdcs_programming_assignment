@@ -67,8 +67,8 @@ public class LinearLogisticRegressionREEF {
   public static final class TimeOut implements Name<Integer> {
   }
 
-  //@NamedParameter(short_name = "input", default_value = "file:/Users/lee/workspace/shimoga/spambase.data.txt")
-  @NamedParameter(short_name = "input", default_value = "file:/Users/lee/workspace/shimoga/test.txt")
+  // Give file path here
+  @NamedParameter(short_name = "input", default_value = "file:/Users/lee/workspace/shimoga/spambase.data.txt")
   public static final class InputDir implements Name<String> {
   }
 
@@ -117,7 +117,7 @@ public class LinearLogisticRegressionREEF {
         .setDriverConfigurationModule(DriverConfiguration.CONF
             .set(DriverConfiguration.GLOBAL_LIBRARIES, EnvironmentUtils.getClassLocation(LinearLogisticRegressionDriver.class))
             .set(DriverConfiguration.ON_CONTEXT_ACTIVE, LinearLogisticRegressionDriver.ContextActiveHandler.class)
-            .set(DriverConfiguration.ON_TASK_COMPLETED, LinearLogisticRegressionDriver.TaskCompletedHandler.class)
+            .set(DriverConfiguration.ON_TASK_FAILED, LinearLogisticRegressionDriver.FailedTaskHandler.class)
             .set(DriverConfiguration.DRIVER_IDENTIFIER, "LinearLogisticRegressionDriver"))
         .build();
 
@@ -125,8 +125,8 @@ public class LinearLogisticRegressionREEF {
 
     // Temporarily use this
     int numberOfReceivers = NUM_SPLITS;
-    int dimensions = 3;
-    //int dimensions = 7;
+    // # of dimension of the dataset used
+    int dimensions = 58;
     final Configuration mergedDriverConfiguration = Tang.Factory.getTang()
         .newConfigurationBuilder(dataLoadConfiguration, groupCommServConfiguration)
         .bindNamedParameter(ModelDimensions.class, Integer.toString(dimensions))
