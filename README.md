@@ -3,6 +3,8 @@ K.S. Lee's Linear Logistic Regression implementation on REEF
 This project is dependent on Shimoga project which is located at:
 https://github.com/Microsoft-CISL/shimoga
 
+To run the source code, the easiest way might be adding the package to your Shimoga project.
+
 Refered Andrew Ng's lecture on Coursera:
 https://class.coursera.org/ml-005/lecture
 
